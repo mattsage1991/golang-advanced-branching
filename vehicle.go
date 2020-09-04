@@ -128,7 +128,6 @@ func generateRating() {
 						vehRating += extraNegative
 					}
 				}
-
 				switch {
 				case vehRating > 8.0:
 					vehResult.feedbackPositive++
